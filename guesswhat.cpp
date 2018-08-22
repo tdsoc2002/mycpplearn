@@ -60,4 +60,5 @@ int date = 0; // Date to be determind
     cout << "Your birth date is " << date << endl;
 	system("pause"); // stdlib.h 等待任意键
 	return 0;
+
 }
