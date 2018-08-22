@@ -13,6 +13,15 @@ using namespace std;
 /*文件主体*/
 int main()
 {
+	//精度控制
+	float numf = 10 / 3.0;
+	double numd = 10 / 3.0;
+	cout << fixed;//让浮点型固定用数字方式显示
+	cout << setprecision(3);//控制小数显示的位数
+	cout << "numFloat = " << numf *100000 << endl;
+	cout << "numDouble = " << numd *100000 << endl;
+	
+	
 	/*
 	// sizeof测量数字的精度
 	cout << sizeof(double) << endl;
