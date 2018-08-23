@@ -7,7 +7,6 @@
 
 rua.cpp←主要程序写着玩 
  
- 
 guesswhat.cpp←大佬写的一个猜你生日偷来借鉴 
 
 rua.cpp←主要程序写着玩 

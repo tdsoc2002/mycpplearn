@@ -13,6 +13,7 @@ using namespace std;
 /*文件主体*/
 int main()
 {
+	/*
 	//精度控制
 	float numf = 10 / 3.0;
 	double numd = 10 / 3.0;
@@ -20,7 +21,7 @@ int main()
 	cout << setprecision(3);//控制小数显示的位数
 	cout << "numFloat = " << numf *100000 << endl;
 	cout << "numDouble = " << numd *100000 << endl;
-	
+	*/
 	
 	/*
 	// sizeof测量数字的精度
