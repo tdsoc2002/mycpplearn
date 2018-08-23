@@ -6,17 +6,19 @@
 
 ## 文件解释
 
-rua.cpp←主要程序写着玩
+index.cpp ←目前造的轮子
 
-guesswhat.cpp←大佬写的一个猜你生日偷来借鉴
+rubbish/←自己造的垃圾过去式
 
-rua.cpp←主要程序写着玩
+rua.cpp ←尝试了一下控制台的title
 
-test.cpp←大佬写的一个猜你生日偷来借鉴
+history.cpp ←垃圾历史
 
 .vscode/← VScode的设置文件夹
 
-file/ ←没事写着玩的刷题的文件库
+file/ ←没事写着玩的,刷题的文件库
+
+guesswhat.cpp←大佬写的一个猜你生日偷来借鉴
 
 .gitignore目录文件
 

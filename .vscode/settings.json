@@ -2,6 +2,8 @@
     "files.associations": {
         "iostream": "cpp",
         "iomanip": "cpp",
-        "cmath": "cpp"
-    }
+        "cmath": "cpp",
+        "cstdio": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

@@ -13,6 +13,7 @@ using namespace std;
 /*文件主体*/
 int main()
 {
+	
 	/*
 	//精度控制
 	float numf = 10 / 3.0;
