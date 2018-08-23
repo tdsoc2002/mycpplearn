@@ -3,7 +3,8 @@
     学习的微课：
 <https://study.163.com/course/courseMain.htm?courseId=1005812013&share=1&shareId=1143990745>
 <https://study.163.com/course/courseMain.htm?courseId=1003701011>
-    ## 基础
+
+## 基础
 
     1.《全国青少年信息学奥林匹克分区联赛初赛培训教材》，曹文，吴涛编著。
 
@@ -19,7 +20,7 @@
 
     7.《算法竞赛入门经典：训练指南》，刘汝佳著。
 
-    ## 提高篇
+## 提高篇
 
     1.《算法导论》。
 
