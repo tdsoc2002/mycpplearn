@@ -2,28 +2,28 @@
 #include <windows.h>
 #include <cmath>
 #include <iomanip>
-#include <stdlib.h>//µÈ´ýÈÎÒâ¼üºó²Ù×÷
+#include <stdlib.h>//ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 using namespace std;
 int main()
 {
-	SetConsoleTitle("Õâ¸öÊÀ½çÐèÒª¸ü¶àµÄÓ¢ÐÛ£¡");
-	/**ÉËº¦*/
+	SetConsoleTitle("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ó¢ï¿½Û£ï¿½");
+	/**ï¿½Ëºï¿½*/
 	double value_attack = 666.233;
-	/**¹¥»÷³É³¤*/
+	/**ï¿½ï¿½ï¿½ï¿½ï¿½É³ï¿½*/
 	double value_attack_grouth = 0.1;
-	/**¹¥»÷¾àÀë*/
+	/**ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 	double value_attack_distance = 888;
-	/**»¤¼×*/
+	/**ï¿½ï¿½ï¿½ï¿½*/
 	double value_defence =123;
-	/**»¤¼×³É³¤Öµ*/
+	/**ï¿½ï¿½ï¿½×³É³ï¿½Öµ*/
 	double attack1 = 272;
 	double attack2 = 250;
 	double attack3 = 240;
 	double value_defence_growth =3.6;
-	cout <<"Ó¢ÐÛÃû³Æ£ºRua!"<<endl;
-	cout << "ÉËº¦:"<<value_attack<<"(+"<<value_attack_grouth<<")\t"
-		 << "¹¥»÷¾àÀë"<< value_attack_distance << endl;
-	cout << "»¤¼×"<< value_defence << "³É³¤Öµ:" << value_defence_growth <<endl;
+	cout <<"Ó¢ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½Rua!"<<endl;
+	cout << "ï¿½Ëºï¿½:"<<value_attack<<"(+"<<value_attack_grouth<<")\t"
+		 << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"<< value_attack_distance << endl;
+	cout << "ï¿½ï¿½ï¿½ï¿½"<< value_defence << "ï¿½É³ï¿½Öµ:" << value_defence_growth <<endl;
 	cout << left;
 	cout << setfill('_');
 	cout << "Nothing\n"<<
