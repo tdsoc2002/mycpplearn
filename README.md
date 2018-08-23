@@ -16,6 +16,8 @@ test.cpp←大佬写的一个猜你生日偷来借鉴
 
 .vscode/← VScode的设置文件夹
 
+file/ ←没事写着玩的刷题的文件库
+
 .gitignore目录文件
 
 ----------
