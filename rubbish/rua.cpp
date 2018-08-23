@@ -16,11 +16,20 @@ int main()
 	/**»¤¼×*/
 	double value_defence =123;
 	/**»¤¼×³É³¤Öµ*/
+	double attack1 = 272;
+	double attack2 = 250;
+	double attack3 = 240;
 	double value_defence_growth =3.6;
 	cout <<"Ó¢ÐÛÃû³Æ£ºRua!"<<endl;
 	cout << "ÉËº¦:"<<value_attack<<"(+"<<value_attack_grouth<<")\t"
-		<< "¹¥»÷¾àÀë"<< value_attack_distance << endl;
+		 << "¹¥»÷¾àÀë"<< value_attack_distance << endl;
 	cout << "»¤¼×"<< value_defence << "³É³¤Öµ:" << value_defence_growth <<endl;
+	cout << left;
+	cout << setfill('_');
+	cout << "Nothing\n"<<
+		setw(8)<< attack1<<
+		setw(8)<< attack2<< 
+		setw(8)<< attack3<<endl;
 
 	/*End Mode*/
 	system("pause"); // stdlib.h 
