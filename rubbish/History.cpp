@@ -13,6 +13,22 @@ using namespace std;
 /*文件主体*/
 int main()
 {
+ switch(choice)
+    {
+        case 1:
+        cout << 1 << endl;
+        //break;
+        case 2:
+        cout << 2 << endl;
+        //break;
+        case 3:
+        cout << 3 << endl;
+        //break;
+        case 4:
+        cout << 4 << endl;
+        //break;
+    }
+
     //败家.jpg
     double price_djip4p =8888;
     double price_djios =780;

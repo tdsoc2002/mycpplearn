@@ -24,6 +24,7 @@ int main()
 	cout << "�˺�:"<<value_attack<<"(+"<<value_attack_grouth<<")\t"
 		 << "��������"<< value_attack_distance << endl;
 	cout << "����"<< value_defence << "�ɳ�ֵ:" << value_defence_growth <<endl;
+
 	cout << left;
 	cout << setfill('_');
 	cout << "Nothing\n"<<
