@@ -3,13 +3,12 @@
 #include <cstdio>
 #include <iomanip>
 #include <cmath>
-#include <stdlib.h>//ç­‰å¾…åè¿›è¡Œ
+#include <stdlib.h>//µÈ´ıºó½øĞĞ
 using namespace std;
 int main ()
 {
-    SetConsoleTitle("è†œæ³•æ§åˆ¶å°");
-    int choice = 1;
-   
+    SetConsoleTitle("Ä¤·¨¿ØÖÆÌ¨");
+    
     system("pause"); // stdlib.h 
     return 0;
 }

@@ -11,7 +11,45 @@ using namespace std;
 
 /*↑ 留的定义空间*/
 /*文件主体*/
+string password;//循环测试密码三次，第一次写循环。
+    int i =0;
+    while(i<3)
+    {
+        cout << "请输入密码:"<<endl;
+        cin >> password;
+        cout << "你输入的密码是:"<< password<<endl;
+        i++;
+        //判断是否正确
+        if(password == "12345678")
+        {
+            if(i == 3)
+            {
+                cout<<"错了三次了SB！" ;
+                exit(0);//可以定义错误码！
+            }
+            else
+            {
+             cout <<"true"<<endl;
+            }
+        }
+        else
+        {
+        cout << "SB密码错误"<<endl;
+        }
+    }
+
 int main()
+int num =1;//控制循环次数
+   int sum =0;//保存累加和
+   while(num <= 100)
+   {
+      // cout << num <<endl;
+      sum +=num;//结果保存1+un100的值
+    //为了循环退出
+    cout << sum <<endl;//当前状态
+    num++;
+   }
+   cout << "结果:" <<sum<<endl;
 {
  switch(choice)
     {
