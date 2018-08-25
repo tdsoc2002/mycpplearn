@@ -11,6 +11,22 @@ using namespace std;
 
 /*↑ 留的定义空间*/
 /*文件主体*/
+    int n =0;
+while (n++<= 2)// 先把n <=计算完成再算n++
+    {
+        cout << n << endl; 
+    }
+cout << n;
+
+int k=1,n=10,m=1;
+    while(k<=n)
+    {
+        m *= 2;
+        n--;
+    }
+    cout << m;
+
+
 string password;//循环测试密码三次，第一次写循环。
     int i =0;
     while(i<3)
@@ -37,6 +53,7 @@ string password;//循环测试密码三次，第一次写循环。
         cout << "SB密码错误"<<endl;
         }
     }
+
 
 int main()
 int num =1;//控制循环次数
@@ -66,6 +83,7 @@ int num =1;//控制循环次数
         cout << 4 << endl;
         //break;
     }
+
 
     //败家.jpg
     double price_djip4p =8888;
