@@ -4,7 +4,9 @@
         "iomanip": "cpp",
         "cmath": "cpp",
         "cstdio": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "ostream": "cpp",
+        "cstdlib": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
