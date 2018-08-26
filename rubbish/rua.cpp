@@ -1,3 +1,9 @@
+/*
+ * @Author: 2Js_Island 
+ * @Date: 2018-08-26 16:55:31 
+ * @Last Modified by:   2Js_Island 
+ * @Last Modified time: 2018-08-26 16:55:31 
+ */
 #include <iostream>
 #include <windows.h>
 #include <cmath>
@@ -11,6 +17,7 @@ int main()
 	double value_attack = 666.233;
 	/**�����ɳ�*/
 	double value_attack_grouth = 0.1;
+	
 	/**��������*/
 	double value_attack_distance = 888;
 	/**����*/
