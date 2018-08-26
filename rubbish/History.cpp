@@ -11,6 +11,13 @@ using namespace std;
 
 /*↑ 留的定义空间*/
 /*文件主体*/
+int a =1,b =10;
+    do
+    {
+    b -=a;//9
+    a++;//a = 2
+    }while(b--<0) // while(b<0) b--
+    //do while循环 先做do 后做while判断 如果是则继续执行
 //使用循环模拟拳皇
     int hp1 =100;
     int hp2 =100;
