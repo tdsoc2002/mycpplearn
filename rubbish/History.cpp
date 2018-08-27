@@ -15,9 +15,57 @@
 /*看到没头文件 ↑*/
 //2018年8月22日托管于Github！
 using namespace std;
-
+int main()
+{
 /*↑ 留的定义空间*/
 /*文件主体*/
+    for(int i =0;i<4;i++)
+    {
+        for(int l =0;l <= 2 * i;l++)
+        {
+            if(l ==0||l==2 * i)
+           { 
+                cout << '*';
+           }
+           else
+           {
+               cout<<' ';
+           }
+        }
+        cout<<endl;
+    }
+
+
+for(int i =0;i<4;i++)
+    {
+        for(int l =0;l <= 2 * i;l++)
+        {
+            cout << (char)('A'+i);
+        }
+        cout<<endl;
+    }
+
+
+for(int i =0;i<=5;i++)
+    {
+         for(int j =0;j <=4-i;j++){
+        cout <<'~';
+        }
+        for(int j =0;j <=2*i;j++){
+        cout <<'*';
+        }
+    cout << endl;
+    }
+
+for(int i =0;i<10;i++)
+    {
+        for(int j=0;j<5;j++)
+        {
+            cout<<"……";
+        }
+    cout<<endl;
+    }
+
 for(int i=0;i<10;i++)
     {
         cout <<i<<','<<endl;

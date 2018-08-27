@@ -15,13 +15,20 @@ using namespace std;
 int main ()
 {
     SetConsoleTitle("Ä¤·¨¿ØÖÆÌ¨");
-    for(int i =0;i<5;i++)
+    for(int i =0;i<4;i++)
     {
-        for(int j=0;j<5;j++)
+        for(int l =0;l <= 2 * i;l++)
         {
-            cout<<"*";
+            if(l ==0||l==2 * i)
+           { 
+                cout << '*';
+           }
+           else
+           {
+               cout<<' ';
+           }
         }
-    cout<<endl;
+        cout<<endl;
     }
     system("pause"); // stdlib.h
     return 0;
