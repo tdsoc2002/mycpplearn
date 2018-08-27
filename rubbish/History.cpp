@@ -1,8 +1,9 @@
+
 /*
  * @Author: 2Js_Island 
  * @Date: 2018-08-26 16:52:55 
- * @Last Modified by:   2Js_Island 
- * @Last Modified time: 2018-08-26 16:52:55 
+ * @Last Modified by: 2Js_Island
+ * @Last Modified time: 2018-08-26 23:01:50
  */
 #include <iostream>
 #include <cstdio>//CPP写法防止错误
@@ -17,6 +18,122 @@ using namespace std;
 
 /*↑ 留的定义空间*/
 /*文件主体*/
+for(int i=0;i<10;i++)
+    {
+        cout <<i<<','<<endl;
+    }
+
+double money;//玩家消费
+    int count = 0;//计数器~
+    int i=0;
+    do
+    {
+        i ++;
+        cin >>money;
+        if(money>=500)
+        continue;
+        count ++;      
+    }while(i<5);
+    cout << count <<endl;
+
+double money;//玩家消费
+    int count = 0;//计数器~
+    for(int i =0;i<5;i++){
+    cout <<"输入玩家的消费额度:"<<endl;
+    cin>>money;
+    if (money>=500)
+    continue;
+    count++;
+    }
+    cout << count <<endl;
+
+ const double price = 5000.0;//猜测的价格
+    double guessprice; //你猜啊
+    int guesscount =0;//猜的次数
+    //start
+    for(;;)
+    {
+        cout << "价格：\t"<<endl;
+        cin >> guessprice;
+        guesscount++;
+        if(guessprice>price)
+        {
+            cout <<"大了"<<endl;
+        }
+        else if (guessprice<price)
+        {
+            cout <<"小了"<<endl;
+        }
+        else if (guessprice=price)
+        {
+            cout <<"NB"<<endl;
+            break;
+        }
+    }if (guesscount ==1)
+    {
+        cout <<"牛逼！一次猜中";
+    }else if (guesscount>=2&&guesscount<=3)
+    {
+        cout<<"菜鸡"<<endl;
+    }
+    else if(guesscount>=4&&guesscount<=5)
+    {
+        cout <<"我觉得你还行啊";
+    } 
+    else 
+    {
+    cout <<"猜的次数真的多哦";
+    }
+
+int age;
+    for(;;)
+    {
+        cout <<"请输入年龄：";
+        cin>>age;
+        if(age<0)
+        {
+            cout <<"数据非法！"<<endl;
+            break;
+        }
+    }
+    cout << "傻屌了吧~"<<endl;
+
+//打印1997年7月份日历
+    int day = 31;//总共时间
+    int dayofweek =2;//第一天是周二
+    cout << "一\t"<<"二\t"<<"三\t"<<"四\t"<<"五\t"<<"六\t"<<"七"<<endl;
+    for(int i =0;i<dayofweek -1;i++)
+    {
+        cout <<"\t";
+    }
+    //打印日期 
+    for(int i =1; i <=day ; i++)
+    {
+      
+        if((i+dayofweek-1)%7==0)
+        {
+           cout << i <<'\n';
+        }
+        else
+        {
+            cout << i <<'\t';
+        }
+    }
+     cout << endl;
+
+double salary =0;
+    double sumsalary =0;
+    double avgsalary =0;
+    const int year =6;
+    for (int i = 0;i<year;i++)
+    {
+        cout << "请输入第"<<i+1<<"个月的工资："<<endl;
+        cin >> salary;
+        sumsalary += salary;
+    }
+    avgsalary = sumsalary /year;
+    cout <<"平均工资为:"<< avgsalary<<endl;
+    
 int a =1,b =10;
     do
     {
@@ -111,7 +228,7 @@ int num =1;//控制循环次数
     num++;
    }
    cout << "结果:" <<sum<<endl;
-{
+
  switch(choice)
     {
         case 1:
