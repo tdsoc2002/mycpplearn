@@ -19,6 +19,96 @@ int main()
 {
 /*↑ 留的定义空间*/
 /*文件主体*/
+int nums[]{0,1,2,3,4,5,6,7,8,55,99,55454,9,10};
+    int numslen =sizeof(nums)/sizeof(int);//数组的长度
+    int sum =0;
+    for(int i =0;i < numslen;i++)
+    {
+        cout << nums[i]<<'\t';
+    }
+    cout <<endl;
+    for(int i =0; i<numslen ;i++)
+    {
+        sum += nums[i];
+    }
+    cout << sum<< '\t'<< sum/numslen <<endl;
+    //1擂台啊~
+    int max = nums[0];
+    int maxIndex =0;
+    for(int i=0;i<numslen;i++)
+    {
+        if(nums[i]>max)
+        {
+            max = nums[i];//最大值的数字
+            maxIndex =i;//最大值的标志
+
+        }
+    }
+    cout <<max<<'/'<<nums[maxIndex]<<endl;
+    cout << "最大值的标志是"<< maxIndex<<endl;
+    //2奇数偶数判断 
+    int ji =0, ou=0;
+    for(int i =0;i < numslen ;i++)
+    {
+        if(nums[i]%2==0)
+        {
+            ou++;
+        }
+        else
+        {
+            ji++;
+        }
+    }
+    cout << ji <<'\t'<< ou<<endl;
+    //查找下标志 如果没有就是 -1
+    int searchnum;//查找的数字
+    int searchindex = INT16_MIN;//下标
+    cout << "输入查找的数字：";
+    cin >> searchnum;
+    for (int i=0;i <numslen;i++)
+    {
+        if(nums[i]==searchnum)
+        {
+        searchindex =i;
+        break;
+        }
+    }
+    if(searchindex == INT16_MIN)
+    {
+        cout <<"没有这个数字！"<<endl;
+    }
+    else
+    {
+        cout<<searchnum<<"在数组中的标识为"<<searchindex<<endl; 
+    }
+
+  int nums[]{1,2,3,4,5,6,7,8,9,10};
+    int numslen =sizeof(nums)/sizeof(int);//数组的长度
+    int sum =0;
+    for(int i =0;i < numslen;i++)
+    {
+        cout << nums[i]<<'\t';
+    }
+    cout <<endl;
+    for(int i =0; i<numslen ;i++)
+    {
+        sum += nums[i];
+    }
+    cout << sum<< '\t'<< sum/numslen <<endl;
+
+//动态录入信息
+    const int N =5;
+    int nums[N];
+    for(int i =0 ; i<N;i++)
+    {
+        cout <<"请输入第"<<(i+1)<<"个元素组";
+        cin >>nums[i];
+    }
+    for(int i =0 ; i<N;i++)
+    {
+        cout << nums[i]<<endl;
+    }
+
     for(int i =0;i<4;i++)
     {
         for(int l =0;l <= 2 * i;l++)
