@@ -3,7 +3,7 @@
  * @Author: 2Js_Island 
  * @Date: 2018-08-26 16:52:55 
  * @Last Modified by: 2Js_Island
- * @Last Modified time: 2018-08-26 23:01:50
+ * @Last Modified time: 2018-08-28 20:51:37
  */
 #include <iostream>
 #include <cstdio>//CPP写法防止错误
@@ -19,6 +19,95 @@ int main()
 {
 /*↑ 留的定义空间*/
 /*文件主体*/
+
+
+ int temp;
+    int nums[]={15,9,5,6,54,64};
+    for (int i=0; i <6-1;i++)//外层控制轮数
+    {
+        for(int j =0; j<5-i;j++)
+        {
+            if (nums[j]<nums[j+1])
+            { 
+                temp = nums[j];
+                nums[j] = nums[j+1];
+                nums[j+1]=temp;
+            }
+
+        }
+    }
+
+int nums[]{0,1,2,3,4,5,6,7,8,55,99,55454,9,10};
+    int numslen =sizeof(nums)/sizeof(int);//数组的长度
+    int sum =0;
+    for(int i =0;i < numslen;i++)
+    {
+        cout << nums[i]<<'\t';
+    }
+    cout <<endl;
+    for(int i =0; i<numslen ;i++)
+    {
+        sum += nums[i];
+    }
+    cout << sum<< '\t'<< sum/numslen <<endl;
+    //1擂台啊~
+    int max = nums[0];
+    int maxIndex =0;
+    int min =nums[0];//假设最小值
+    int minindex=0;
+    for(int i=0;i<numslen;i++)
+    {
+        if(nums[i]>max)
+        {
+            max = nums[i];//最大值的数字
+            maxIndex =i;//最大值的标志
+
+        }
+        if(nums[i]<min)
+        {
+            min =nums[i];
+            minindex =i;
+        }
+    }
+    cout <<max<<'/'<<nums[maxIndex]<<endl;
+    cout << "最大值的标志是"<< maxIndex<<endl;
+    cout << "最小值的标志是"<< minindex<< endl;
+    //2奇数偶数判断 
+    int ji =0, ou=0;
+    for(int i =0;i < numslen ;i++)
+    {
+        if(nums[i]%2==0)
+        {
+            ou++;
+        }
+        else
+        {
+            ji++;
+        }
+    }
+    cout << ji <<'\t'<< ou<<endl;
+    //查找下标志 如果没有就是 -1
+    int searchnum;//查找的数字
+    int searchindex = INT16_MIN;//下标
+    cout << "输入查找的数字：";
+    cin >> searchnum;
+    for (int i=0;i <numslen;i++)
+    {
+        if(nums[i]==searchnum)
+        {
+        searchindex =i;
+        break;
+        }
+    }
+    if(searchindex == INT16_MIN)
+    {
+        cout <<"没有这个数字！"<<endl;
+    }
+    else
+    {
+        cout<<searchnum<<"在数组中的标识为"<<searchindex<<endl; 
+    }
+
 int nums[]{0,1,2,3,4,5,6,7,8,55,99,55454,9,10};
     int numslen =sizeof(nums)/sizeof(int);//数组的长度
     int sum =0;
