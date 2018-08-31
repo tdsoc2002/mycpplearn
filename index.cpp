@@ -17,19 +17,7 @@ int main ()
     SetConsoleTitle("USER£ºROOT");
     int temp;
     int nums[]={15,9,5,6,54,64};
-    for (int i=0; i <6-1;i++)//Íâ²ã¿ØÖÆÂÖÊý
-    {
-        for(int j =0; j<5-i;j++)
-        {
-            if (nums[j]<nums[j+1])
-            { 
-                temp = nums[j];
-                nums[j] = nums[j+1];
-                nums[j+1]=temp;
-            }
-
-        }
-    }
+    
     system("pause"); // stdlib.h
     return 0;
 }
