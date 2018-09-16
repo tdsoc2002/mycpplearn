@@ -11,6 +11,6 @@ int main()
         i++;
         s=s+ (1.0/i);
     } while (s<=k);
-    printf("%d",i);
+    cout << i << endl;
     return 0;
 }
