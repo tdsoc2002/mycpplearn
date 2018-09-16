@@ -15,9 +15,7 @@ using namespace std;
 int main ()
 {
     SetConsoleTitle("USER£ºROOT");
-    int temp;
-    int nums[]={15,9,5,6,54,64};
-    
+
     system("pause"); // stdlib.h
     return 0;
 }
