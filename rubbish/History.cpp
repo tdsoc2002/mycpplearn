@@ -19,7 +19,31 @@ int main()
 {
 /*↑ 留的定义空间*/
 /*文件主体*/
-
+//感觉这个写错了
+ double power[99];//数组大小确定不能更改
+    int powercount = 0;//当前数组的个数
+    power[powercount++] = 123;
+    power[powercount++] = 133;
+    power[powercount++] = 143;
+    power[powercount++] = 153;
+    double temp;
+    for(int i = 0; i < powercount ;i++)
+    {
+        for(int j =0;j<powercount - i - 1;i++)
+        {
+            if(power[j]<power[j+1])
+            {
+                temp = power[j];
+                power[j]=power[j+1];
+                power[j+1]=temp;
+            }
+        }
+    }
+    for(int i =0;i < powercount;i++)
+    {
+        cout << power[i]<<"\t";
+    }
+    //endl
 
 using namespace std;
 #define Height 10
