@@ -6,7 +6,7 @@
 using namespace std ;
 char b[50] ;
 int a[50] , m = 1 , ans;
-main()
+int main()
 {
     for( int i = 1 ; i <= 13 ; i ++ )
     {
