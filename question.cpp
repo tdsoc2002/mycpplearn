@@ -1,10 +1,15 @@
-#include <iostream>
-#include <cmath>
-using namespace std;
+#include <bits/stdc++.h>
 int main()
 {
-    int a,b,c;
-    c = a+b;
-    cout << c <<endl;
+    // 生成 20 组数据 幻岛用的
+    for (int test = 1; test <= 20; test++) {
+        char name[100];
+        sprintf(name, "%d.in", test);  // 注意文件名称必须以 in 作为后缀
+        FILE * fp = fopen(name, "w");
+        int a = rand() % 100 + 1;// 随机生成在一个在 [1, 100]　数
+        int b = rand() % 100 + 1;// 随机生成在一个在 [1, 100]　数
+        fprintf(fp, "%d %d\n", a, b);// 输出到文件中
+        fclose(fp);
+    }
     return 0;
 }
