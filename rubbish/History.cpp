@@ -19,7 +19,26 @@ int main()
 {
 /*↑ 留的定义空间*/
 /*文件主体*/
+
+int n1=4,n2=5,n3;
+    n3=n1>n2;
+    cout<<n3<<endl;
+    n3=n1<n2;
+    cout<<n3<<endl;
+    n3=n1==4;
+    cout<<n3<<endl;
+    n3=n1!=4;
+    cout<<n3<<endl;
+    n3=n1=1+3;
+    cout<<n3<<endl;
+
 //感觉这个写错了
+    int x=7 ,y=8;
+    int z1 = y-(x++);//x=8 x值已变
+    int z2 = y-(++x);//x=9
+    cout << z1 <<" "<< z2<<endl;
+
+
  double power[99];//数组大小确定不能更改
     int powercount = 0;//当前数组的个数
     power[powercount++] = 123;

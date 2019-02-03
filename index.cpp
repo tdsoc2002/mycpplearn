@@ -3,7 +3,10 @@
 using namespace std;
 int main()
 {
-    cout << "hello  world"<<endl;
+    int x,y;
+    scanf("%d",&x);
+    y=10*x;
+    printf("%d %d\n",x,y); 
     system("pause");
     return 0;
 }
